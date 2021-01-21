@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="@drawable/bg_rectangle">
+
+            <!--     <Spinner
+                     android:id="@+id/spinnerLocation"
+                     android:layout_width="match_parent"
+                     android:layout_height="@dimen/margin_40">
+
+                 </Spinner>-->
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:layout_margin="@dimen/margin_2"
+                android:id="@+id/spinnerLocation"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_40"
+                android:hint="@string/select_city">
+
+            </com.jaredrummler.materialspinner.MaterialSpinner>
+
+
+
+
+
+
+        </LinearLayout>
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="8" />
+        <LinearLayout
+            android:id="@+id/layout_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="@drawable/bg_rectangle"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/searchLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin_10"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tvLocation"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="Search for Apartsments, Villas or lands"
+                    android:padding="2dp"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/margin_6"
+                        android:src="@drawable/icon_search" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:text="@string/bed_room"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvBedRooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_6"
+            android:orientation="vertical"
+
+            />
+
+
+        <TextView
+            android:id="@+id/tvSeekBarValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <SeekBar
+            android:padding="@dimen/margin_6"
+            android:layout_marginTop="@dimen/margin_4"
+            android:id="@+id/seekbarPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:text="@string/avaliability"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvAvaliability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_6"
+            android:orientation="vertical"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="@dimen/margin_10"
+        android:text="@string/search"
+        android:textColor="@color/white">
+
+    </TextView>
+
+
+</LinearLayout>

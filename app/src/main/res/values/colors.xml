@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="tranferentt_colore">#99000000</color>
+
+    <color name="logocolorred">#ffffff</color>
+    <color name="textColorHint">#C5C5C5</color>
+    <color name="textview">#908D8D</color>
+    <color name="light_gray">#63696D</color>
+    <color name="gray_ash">#E5E5E5</color>
+    <color name="light_gray_ash">#f4f4f4</color>
+    <color name="gary_light">#E2E2E2</color>
+    <color name="add_address_text">#818181</color>
+
+    <color name="payment_succes_colore">#8EB404</color>
+    <color name="payment_fail_colore">#E62222</color>
+
+    <color name="pause_click_color">#DA788E</color>
+
+
+    <color name="apptext">#5C6166</color>
+    <color name="light_dark">#85787F</color>
+
+    <!--view-->
+    <color name="view">#E8E8E8</color>
+    <color name="cash_back_colore">#1371ed</color>
+    <color name="price_colore">#008000</color>
+    <color name="mrp_colore">#ff6031</color>
+
+
+
+</resources>

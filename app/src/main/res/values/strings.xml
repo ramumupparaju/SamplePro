@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SamplePro</string>
+    <string name="bed_room">Number of Bed Rooms</string>
+    <string name="avaliability">Avaliability:</string>
+    <string name="search">Search</string>
+    <string name="select_city">Select City</string>
+    <string name="price_symbol">\u20B9</string>
+    <!--<string name="google_maps_key">AIzaSyDQ8tbruHfnn1fu9b6RXf56YjF7tEdLRtQ</string>-->
+    <string name="google_maps_key">AIzaSyD5It7XjBpMEDcH2r4LpP7NOd5_LOkmWWc</string>
+</resources>

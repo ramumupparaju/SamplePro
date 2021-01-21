@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "928161686089",
+    "firebase_url": "https://tekaproduction-29e1c.firebaseio.com",
+    "project_id": "tekaproduction-29e1c",
+    "storage_bucket": "tekaproduction-29e1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928161686089:android:fbd50b5c9961ddf5",
+        "android_client_info": {
+          "package_name": "com.android.samplepro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928161686089-ls4n51olcrns298vkrtk85mnjn1bgrj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVjg_2kRZDWLpwJUOJsqHZTiTmg481nVM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
